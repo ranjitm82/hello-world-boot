@@ -17,5 +17,10 @@ public class HelloWorldBootApplication {
 	public String helloWorld() {
 		return "Hello World!";
 	}
+	
+	@GetMapping("/hello")
+	public String hello() {
+		return "Hello how are you?";
+	}
 
 }
