@@ -15,6 +15,7 @@ public class HelloWorldBootApplication {
 
 	@GetMapping("/")
 	public String helloWorld() {
+		System.out.println("Hello World");
 		return "Hello World!";
 	}
 	
